@@ -1,0 +1,18 @@
+.navigation{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100px;
+}
+li {
+    float: left;
+    width: 100px;
+    line-height: 80px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+}
+a{
+    color: gold;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: 15px;
+}
