@@ -1,3 +1,11 @@
+.gallery{
+background-color:  rgba(232, 232, 232, 0.9);
+color: aliceblue;
+}
+
 h1{
-    text-align: center;
+text-align: center;
+color: black;
+font-size: bold;
+
 }
