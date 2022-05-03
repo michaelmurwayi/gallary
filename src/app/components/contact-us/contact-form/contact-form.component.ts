@@ -10,8 +10,8 @@ export class ContactFormComponent implements OnInit {
 
   form = new FormGroup({
     "name": new FormControl("", Validators.required),
-    "email": new FormControl("", Validators.required),
     "subject": new FormControl("", Validators.required),
+    "email": new FormControl("", Validators.required),
     "message": new FormControl("", Validators.required),
   });
 

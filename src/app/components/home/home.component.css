@@ -1,0 +1,26 @@
+.header{
+    height: 100vw;
+}
+.about{
+    position: relative;
+    top: 85vh;
+    margin-top: 250px;
+    height: 50px;
+}
+.gallery{
+    position: relative;
+    top: 90vh;
+    margin-top: 250px;
+}
+.contact{
+    position: relative;
+    top: 95vh;
+    margin-top: 250px;
+}
+.footer{
+    position: relative;
+    width: 100vw;
+    top: 40vh;
+
+    /* top: 100vh; */
+}

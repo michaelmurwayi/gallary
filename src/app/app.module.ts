@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
 
 
+
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon'
 import { MatCardModule } from '@angular/material/card'
@@ -42,7 +43,7 @@ import { FooterComponent } from './components/footer/footer.component';
     MatIconModule,
     MatCardModule,
     MatGridListModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

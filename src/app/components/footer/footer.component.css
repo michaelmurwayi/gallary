@@ -1,7 +1,9 @@
 .footer-area{
-    position: absolute;
-    background-color: rgb(232, 232, 232, 0.8);
-    color: black;
+    /* position: absolute; */
+    background-color: rgb(0, 0, 0, 0.9);
+    position: relative;
+    top: 95vh;
+    color: gold;
     font-weight: bold;
     font-size: 15px;
 }

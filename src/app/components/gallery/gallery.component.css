@@ -1,11 +1,17 @@
 .gallery{
-background-color:  rgba(232, 232, 232, 0.9);
-color: aliceblue;
+background-color:  rgba(0, 0, 0, 0.1);
+color: white;
 }
 
 h1{
 text-align: center;
-color: black;
-font-size: bold;
+color: gold;
+font-size: bolder;
+font-family: 'joker', sans-serif;
 
+}
+h4{
+    text-align: center;
+    font-weight: ;
+    font-family: monospace;
 }

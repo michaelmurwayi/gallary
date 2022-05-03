@@ -4,6 +4,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: fixed;
+    position: absolute;
     top: 0px;
 }
