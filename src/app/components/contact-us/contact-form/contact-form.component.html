@@ -1,0 +1,54 @@
+<!--================Contact Area =================-->
+<mat-card  class="contact_area section_gap">
+    <span><h1> Contact Us </h1></span>
+    <div class="container">
+        <h4 class="response-text">{{ message }}</h4>
+        <hr *ngIf="message.length > 0" />
+        <div class="row">
+            <div class="col-md-3">
+                <div class="contact_info">
+                    <div class="info_item">
+                        <i class="lnr lnr-home"></i>
+                        <h6>Nairobi, Kenya</h6>
+                        <p>Ruaka</p>
+                    </div>
+                    <div class="info_item">
+                        <i class="lnr lnr-envelope"></i>
+                        <h6>
+                            <a href="mailto:info@revolution-analytics.co.ke">info@revolution-analytics.co.ke</a>
+                        </h6>
+                        <p>Send us your query anytime!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <form class="row contact_form" [formGroup]="form" id="form" novalidate="novalidate">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" required class="form-control" formControlName="name" name="name" placeholder="Enter your name" />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" required class="form-control" formControlName="email" name="email" placeholder="Enter email address" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" formControlName="subject" name="subject" placeholder="Enter Subject" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" formControlName="message" rows="1" placeholder="Enter Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-right">
+                        <button type="submit" value="submit" class="btn theme_btn button_hover" (click)="onSubmit()">Send Message
+            </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="map">
+
+    </div>
+</mat-card >
+<!--================Contact Area =================-->

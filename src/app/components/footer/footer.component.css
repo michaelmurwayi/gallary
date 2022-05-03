@@ -1,0 +1,16 @@
+.footer-area{
+    /* position: absolute; */
+    background-color: rgb(0, 0, 0, 0.9);
+    position: relative;
+    top: 95vh;
+    color: gold;
+    font-weight: bold;
+    font-size: 15px;
+}
+a{
+    color: green;
+}
+.container{
+    text-align: center;
+    
+}
